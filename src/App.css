@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "lalezar";
+  src: url(./assets/fonts/lalezar/Lalezar-Regular.ttf) format("ttf"),
+    url(./assets/fonts/lalezar/Lalezar-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ravi";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./assets/fonts/ravi/RaviFaNum-Thin.woff") format("woff"),
+    url("./assets/fonts/ravi/RaviFaNum-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ravi";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/ravi/RaviFaNum-Light.woff") format("woff"),
+    url("./assets/fonts/ravi/RaviFaNum-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ravi";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/ravi/RaviFaNum-Medium.woff") format("woff"),
+    url("./assets/fonts/ravi/RaviFaNum-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ravi";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/ravi/RaviFaNum-SemiBold.woff") format("woff"),
+    url("./assets/fonts/ravi/RaviFaNum-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ravi";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/ravi/RaviFaNum-ExtraBlack.woff") format("woff"),
+    url("./assets/fonts/ravi/RaviFaNum-ExtraBlack.woff2") format("woff2");
+}
+
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: ravi;
+  font-weight: 500;
+  @apply bg-customBg;
+}
+
+.font-lale {
+  font-family: lalezar;
+}
+
+.Toastify__toast {
+  font-size: 14px;
+  font-family: ravi !important;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c5c5c5 #f6f6f6;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius: 20px;
+  border: 3px solid #f6f6f6;
+}
